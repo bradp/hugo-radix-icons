@@ -1,0 +1,24 @@
+{
+	"name": "hugo-radix-icons",
+	"version": "1.0.0",
+	"description": "Hugo module to easily bring radix Icons into your project.",
+	"keywords": [
+		"hugo",
+		"icons",
+		"module",
+		"hugo-module",
+		"radix-icons"
+	],
+	"homepage": "https://github.com/bradp/hugo-radix-icons",
+	"bugs": "https://github.com/bradp/hugo-radix-icons/issues",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bradp/hugo-radix-icons.git"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Brad Parbs",
+		"email": "brad@bradparbs.com",
+		"url": "https://bradparbs.com"
+	}
+}

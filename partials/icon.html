@@ -1,0 +1,15 @@
+{{/*
+  icon
+  Will print the radix icon matching the string passed as "context"
+
+  @author @bradp
+
+  @context String (.)
+
+  @access public
+
+  @example - Go Template
+    {{ partial "radix-icons/icon" "download" }}
+*/}}
+
+<span class="jam">{{- $icon := resources.Get (print "radix-icons/icons/" . ".svg" ) -}}{{- $icon.Content | safeHTML -}}</span>
